@@ -1,0 +1,112 @@
+/*
+	Reset (YUI)
+*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; } table { border-collapse:collapse; border-spacing:0; } fieldset,img { border:0; } address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:normal; } ol,ul { list-style:none; } caption,th { text-align:left; } h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:normal; } q:before,q:after { content:''; } abbr,acronym { border:0; }
+/*
+	Base Layout
+*/
+html{
+	background: #000;
+	color: #95a4b8;
+	font-family: helvetica;
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0 auto;
+	padding: 0 0 1px 0;
+	width: 317px;
+	background: #121419 url(bio_bg.png) no-repeat 0 0;
+}
+/*
+    Bio
+*/
+a{
+	color: #c00;
+}
+#bio{
+    padding: 10px;
+    text-shadow: #14171c 1px 1px 0;
+}
+#header{
+    padding: 30px 10px 0 10px;
+}
+.image_data{
+    float: left;
+    border: 1px solid #3b4555;
+    display: block;
+    padding: 4px;
+    background: #171a20;
+    margin-bottom: 1.5em;
+}
+h1{
+    margin: 0 0 5px 80px;
+    color: #fff;
+    font-size: 18px;
+}
+dl{
+    margin: 0 0 0 80px;
+    font-size: 11px;
+    color: #95a4b8;
+}
+dl dt{
+    font-weight: bold;
+    color: #c8d3e2;
+}
+dl dd{margin-bottom: 5px;}
+/*
+    Sections
+*/
+.section{
+    border: 2px solid #2c3039;
+    background: #1c1f25;
+    margin-bottom: 1.5em;
+    -webkit-border-radius: 4px;
+    -webkit-box-shadow: #000 0 0 12px;
+    padding-bottom: 15px;
+}
+.section h2{
+    padding: 10px 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.content{
+    padding: 10px 15px;
+    background: #2c3039;
+    font-size: 12px;
+    line-height: 1.5em;
+    color: #bec5d3;
+}
+.content.alt{
+    background: #1c1f25;
+}
+.content h3{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/*
+    Button
+*/
+.button{
+    border: 3px solid #3f4a5b;
+    -webkit-border-radius: 4px;
+    margin-bottom: 1.5em;
+    -webkit-box-shadow: #000 0 0 12px;
+}
+.button a{
+    background: #333844 url(button_bg.png) repeat-x 0 0;
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #121419;
+    -webkit-border-radius: 2px;
+}
+.button a:hover{background: #333844;}
+#related_photos {
+  margin-top: 5px;
+}
